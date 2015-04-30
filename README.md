@@ -1,5 +1,5 @@
 ### Meteor JS Package
-# Shopify App Installer
+# shopify-app-installer
 
 A simple package to manually install a Shopify app from outside Shopify app store.
 
@@ -12,8 +12,10 @@ ShopifyApi.options = {
     scopes: 	'Your app scopes',
 }
 ```
-One the package is installed, navigate to '/shopify/app-installer'.
+One the package is installed, navigate to **'/shopify/app-installer'**.
+
 Add in your shop name (without the '.myshopify.com' part) and hit 'Install App' button.
+
 You will then be redirected to Shopify to install the app in the given shop.
 
-The redirect url is set to redirect to the following route in your app: '/shopify/authenticate'.
+The redirect url is set to redirect to the following route in your app: **'/shopify/authenticate'**.
