@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'lukeclifton:shopify-app-installer',
+  name: 'cliffers:shopify-app-installer',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'A simple package to manually install a shopify app from outside shopify app store.',
@@ -13,8 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
   api.use('templating');
-  api.use('iron:router');
-  api.use('lukeclifton:shopify-api-meteor');
+  api.use('iron:router@1.0.5');
   api.addFiles('shopify-app-installer.html', 'client');
   api.addFiles('shopify-app-installer.js', 'client');
 });
