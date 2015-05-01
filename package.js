@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cliffers:shopify-app-installer',
-  version: '0.0.1',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'A simple package to manually install a shopify app from outside shopify app store.',
   // URL to the Git repository containing the source code for this package.

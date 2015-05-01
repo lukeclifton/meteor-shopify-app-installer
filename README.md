@@ -3,6 +3,16 @@
 
 A simple package to manually install a Shopify app from outside Shopify app store.
 
+[View package on Atmosphere](https://atmospherejs.com/cliffers/shopify-app-installer)
+
+#### Install package
+
+```
+meteor add cliffers:shopify-app-installer
+```
+
+#### Use package
+
 If using standalone, as a minimum, you will need to define the following options in your Meteor app:
 
 ```
